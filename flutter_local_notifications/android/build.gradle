@@ -34,6 +34,7 @@ android {
         multiDexEnabled true
         minSdkVersion 19
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+        consumerProguardFiles "flutter_local_notification.pro"
     }
 
     lintOptions {
